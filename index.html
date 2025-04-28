@@ -14,16 +14,21 @@
       align-items: center;     /* vertical centering */
       justify-content: center; /* horizontal centering */
       font-family: "Courier New", Courier, monospace;
+      padding: 1rem;           /* keep some breathing room on tiny screens */
     }
-    /* Optional: make links visually distinct */
-    a {
-      text-decoration: underline;
+
+    /* Limit line‑length so it doesn’t sprawl edge‑to‑edge */
+    p {
+      max-width: 40ch;         /* ≈40 characters per line */
+      text-align: center;      /* center the inline text inside the box */
+      margin: 0;               /* remove default top/bottom margins */
     }
+    a { text-decoration: underline; }
   </style>
 </head>
 <body>
   <p>
-    hi, i'm matt. i'm a student, researcher, pianist, consultant, and explorer. connect with me on linkedin <a href="https://www.linkedin.com/in/matthew-c-pater/" target="_blank" rel="noopener noreferrer">here</a> 
+    hi, i'm matt. i'm a student, political scientist, researcher, pianist, consultant, and mediocre cyclist. connect with me on linkedin <a href="https://www.linkedin.com/in/matthew-c-pater/" target="_blank" rel="noopener noreferrer">here</a>. check out my lastest adventures <a href="https://www.strava.com/athletes/50290206" target="_blank" rel="noopener noreferrer">here</a>.  
   </p>
 </body>
 </html>
